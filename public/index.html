@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>feed-retry</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<style type="text/css">
+		* { margin:0; padding:0; box-sizing:border-box }
+		body { font-family: sans-serif; font-size: 16px; color:#111; }
+		h1 { font-size:24px; color:#444 }
+		a { color:blue }
+		div { max-width:800px; margin:auto; padding:5vh 5vw }
+		p { margin:2vh 0 }
+		pre { background:#eee; padding:15px; border-radius:4px }
+	</style>
+</head>
+<body>
+	<div>
+		<h1>feed-retry</h1>
+		<p>Retries an RSS feed until it succeeds. This helps to work around rate limiting,
+			as long as it doesn't matter that the request may take several seconds longer
+			(or however long until it succeeds).</p>
+		<p>
+			<pre><code>/api/feed?url=https://example.com/feed.rss</code></pre>
+		</p>
+		<p>Made by <a href="https://twitter.com/woubuc" rel="noreferrer noopener" target="_blank">@woubuc</a></p>
+	</div>
+</body>
+</html>

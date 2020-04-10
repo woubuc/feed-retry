@@ -1,0 +1,6 @@
+.idea
+.now
+
+node_modules
+
+*.log
